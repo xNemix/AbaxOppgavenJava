@@ -22,7 +22,4 @@ public class Boat extends VehicleWithMaxSpeed {
         return GrossTonnage;
     }
 
-    public void setGrossTonnage(int grossTonnage) {
-        GrossTonnage = grossTonnage;
-    }
 }

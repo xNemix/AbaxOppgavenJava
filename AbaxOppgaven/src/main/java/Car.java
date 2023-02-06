@@ -28,15 +28,8 @@ public class Car extends VehicleWithMaxSpeed{
         return VehicleColor;
     }
 
-    public void setVehicleColor(String vehicleColor) {
-        VehicleColor = vehicleColor;
-    }
-
     public boolean getVehicleType() {
         return VehicleType;
     }
 
-    public void setVehicleType(boolean vehicleType) {
-        VehicleType = vehicleType;
-    }
 }

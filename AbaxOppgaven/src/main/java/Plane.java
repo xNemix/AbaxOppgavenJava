@@ -28,23 +28,12 @@ public class Plane extends Vehicle{
         return WingSpan;
     }
 
-    public void setWingSpan(int wingSpan) {
-        WingSpan = wingSpan;
-    }
-
     public int getLoadCapacity() {
         return LoadCapacity;
-    }
-
-    public void setLoadCapacity(int loadCapacity) {
-        LoadCapacity = loadCapacity;
     }
 
     public int getWeight() {
         return Weight;
     }
 
-    public void setWeight(int weight) {
-        Weight = weight;
-    }
 }

@@ -20,18 +20,9 @@ public abstract class VehicleWithMaxSpeed extends Vehicle{
         return SpeedUnit;
     }
 
-    protected void setSpeedUnit(String speedUnit) {
-        SpeedUnit = speedUnit;
-    }
-
     protected int getMaSpeed() {
         return MaSpeed;
     }
-
-    protected void setMaSpeed(int maSpeed) {
-        MaSpeed = maSpeed;
-    }
-
 
 
 }
